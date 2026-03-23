@@ -1,0 +1,32 @@
+name: Feature request
+description: Suggest an improvement for Wevoa OS
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What problem would this feature solve?
+      placeholder: A clear description of the need
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the change you would like to see
+      placeholder: A clear and concise proposal
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and impact
+      description: Mention affected areas like boot, kernel, UI, tooling, or docs
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Links, references, screenshots, or examples
